@@ -1,0 +1,296 @@
+Main()
+make an int variable for choice selection
+Displays the main menu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what subMenu the user wants to go to or if the user wants to close the program
+
+Statistics() 
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+Matrix()
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+Trigonometry()
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+complex()
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+AddSub()
+Make double variables for math and int variables for choice selection
+While loops and cout statements to ask numbers to add or subtract
+Use simple math to add/subtract 2 numbers together
+Display result and a menu if the user wants to Clear/Add/Subtract/return to menu
+If statement to determine if the user wants to Clear/Add/Subtract/return to menu
+
+Mult()
+Make double variables for math and int variables for choice selection
+While loops and cout statements to ask numbers to multiply
+Use simple math to multiply 2 numbers together
+Display result and a menu if the user wants to Clear/multiply/return to menu
+If statement to determine if the user wants to Clear/multiply/return to menu
+
+Div()
+Make double variables for math and int variables for choice selection
+While loops and cout statements to ask numbers to divide
+Use simple math to divide 2 numbers together
+Display result and a menu if the user wants to Clear/divide/return to menu
+If statement to determine if the user wants to Clear/divide/return to menu
+
+Conjugate()
+Make double variables for terms and int variables for choice selection
+While loops and cout statements to ask terms to conjugate
+Use simple math to change the terms
+Display result and a menu if the user wants to conjugate/return to menu
+If statement to determine if the user wants to conjugate/return to menu
+
+PolRec()
+Make double variables for (Raidius,angle,x,y) and int variables for choice selection
+While loops and cout statements to ask for raidius and angle
+Use cos and sin function to help with calculations.
+Display result and a menu if the user wants to continue/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+RecPol()
+Make double variables for (Raidius,angle,x,y,num) and int variables for choice selection
+While loops and cout statements to ask for x and y cords
+Use arctan functions and the raidius formula for the calculations
+Display result and a menu if the user wants to continue/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+Constant for pi for the sin and cos functions
+
+sin(double x)
+use if statement to determine if the angle is positive or negative
+use an if statement to make the angle less than 360
+use a math formula to change the angle into raidians
+uses a while loop to make a Taylor series
+Return output
+
+cos(double x)
+use if statement to determine if the angle is positive or negative
+use an if statement to make the angle less than 360
+use a math formula to change the angle into raidians
+uses a while loop to make a Taylor series
+Return output
+
+Atan(double x)
+Uses if statements to determine if |x|=1
+use an else than if statement to determine if x is between -1 and 1
+creates a taylor series if x is between -1 and 1
+Return output
+if statement if x>1
+creates a taylor series if x>1
+Return output
+else statement to create a taylor series for x<1
+Return output
+
+sqrt()
+Uses a While loop and the Babylonian method to calculate the Root
+Returns output
+
+exponentialsLogarithm()
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+Expo1()
+Make double variable x for cin and int variables for choice selection
+Use expo formula to find the result of ne^x
+Display result for expo and a menu if the user wants to Clear/Expo/return to menu
+If statement to determine if the user wants to Clear/Expo/return to menu
+
+Power()
+Make a double variable for base(x), exponent(y), and result and int variable choice
+User puts value for x and y as input
+Display the result of power and a menu if the user wants to Clear/Power/return to menu
+If statement to determine if the user wants to Clear/Power/return to menu
+
+NLog1()
+Make double variable x and result and int variable choice
+User inputs value of x
+Display result of Natural log and a menu if the user wants to Clear/Expo/return to menu
+If statement to determine if the user wants to Clear/Expo/return to menu
+
+LogBase()
+Make double variable x, result, and int variable choice for choice selection
+User input for x value
+Display the result of Log base 10 and a menu if the user wants to Clear/LogBase/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+HSine1()
+Make double variable x, result, and int variable choice for choice selection
+User input for x value in sinh1()
+Display the result of HSine1() and a menu if the user wants to Clear/Hsine1/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+HCos1()
+Make double variable x, result, and int variable choice for choice selection
+User input for x value in cosh1()
+Display the result of cosh1() and a menu if the user wants to Clear/Hcos1/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+HTan1()
+Make double variable x, result, and int variable choice for choice selection
+User input for x value in tanh1()
+Display the result of tanh1() and a menu if the user wants to Clear/Htan1/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+Root1()
+Make double variable x, n, result, and int variable Choice, Rootchoice for choice selection
+User input for x value in sqrt() and Nthroot()
+If Rootchoice = 1 call sqrt() if Rootchoice = 2 call Nthroot()
+Display the result of sqrt() or Nthroot() and a menu if the user wants to Clear/Root1/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+Mulli() While loop used to measure the multiplicative inverse (1/x)
+Make double variable x, n, result, and int variable choice for choice selection
+User input for x value in Multi1()
+Display the result of Multi1() and a menu if the user wants to Clear/Mulli/return to menu
+If statement to determine if the user wants to continue/return to menu
+
+double sinh1(double x) definition of hyperbolic sine to calculate the Hsin1
+Make double variables c, f, xp; c = f = xp = 1
+For loop to calculate sinh1 using hyperbolic sine formula
+return value c
+
+double cosh1(double x) definition of hyperbolic cosine to calculate the Hsin1
+Make double variables c, f, xp; c = f = xp = 1
+For loop to calculate sinh1 using hyperbolic sine formula
+return value c
+
+double tanh1(double x) definition of the hyperbolic tangent to calculate the Htan1
+double result as a variable
+result = sinh1/cosh1
+return result
+
+double Multi1(double x, double n) definition of multiplicative inverse to calculate Mulli()
+Make integer variable a, b, res
+For loop of multiplicative inverse formula
+return res
+
+Combinatrix()
+make an int variable for choice selection
+Displays the Submenu for the program
+While Loop as a validator to make sure the user picks the right numbers
+Use If statements to determine what function the user wants to go to or if the user wants to return to the main menu
+
+Combination1()
+Make double variable result, n, and r for cin and int variables for choice selection
+Use combination formula (nCr) to find the result of nCr
+Display result for nCr and a menu if the user wants to Clear/combination/return to menu
+If statement to determine if the user wants to Clear/combination/return to menu
+
+Permutation()
+Make double variable result, n, and r for cin and int variables for choice selection
+Use permutation formula (nPr) to find the result of nPr
+Display result for nPr and a menu if the user wants to Clear/Permutation/return to menu
+If statement to determine if the user wants to Clear/Permutation/return to menu
+
+Factorial()
+Make double variable result, n for cin and int variables for choice selection
+Use Factorial formula to find the result
+Display result and a menu if the user wants to Clear/Factorial/return to menu
+If statement to determine if the user wants to Clear/Factorial/return to menu
+
+FibSeries1()
+Make integer n for user input, set int t1 = 0, t2 = 1, nextTerm = 0 and int variables for choice selection
+For loop Fibonacci series to evaluate sequence of terms
+Display n number of terms and a menu if the user wants to Clear/Fibseries/return to menu
+If statement to determine if the user wants to Clear/Fibseries/return to menu
+
+PasTriangle()
+Make integer rows, set coef = 1 and int variables for choice selection
+User puts number of rows and for loop to evaluate Fibonacci series
+Display number of terms of Fib series and a menu if the user wants to Clear/PasTriangle/return to menu
+If statement to determine if the user wants to Clear/PasTriangle/return to menu
+
+ASequ1()
+Make double first_term, n, d, double x=0, and int variables for choice selection
+User inputs values for first_term, d, and n to evaluate Arithmetic Sequences
+While loop when x < n; first_term = first_term + d, increment x++
+Display number of terms of Arithmetic sequence and a menu if the user wants to Clear/Asequ1/return to menu
+If statement to determine if the user wants to Clear/Asequ1/return to menu
+
+Aser1()
+Make double first_term, n, d, double sum = 0, and int variables for choice selection
+User inputs values for first_term, d, and n to evaluate Arithmetic Series
+For loop to generate arithmetic series
+Display number of terms of Arithmetic series and a menu if the user wants to Clear/Aser1/return to menu
+If statement to determine if the user wants to Clear/Aser1/return to menu
+
+GeoSequ1()
+Make integer n, a, r, i, and int variables for choice selection
+User input values number(n), term(a), common ratio(r) to evaluate Geometric Sequence
+For loop to increment sequence and formula
+Display number of terms in Geometric sequence and a menu if the user wants to Clear/GeoSequ1/return to menu
+If statement to determine if the user wants to Clear/GeoSequ1/return to menu
+
+GeoSer1()
+Make integer n, a, r, i, and int variables for choice selection
+User input values number(n), term(a), common ratio(r) to evaluate Geometric Series
+For loop to increment sequence and series formula
+Display results in Geometric series and a menu if the user wants to Clear/GeoSer1/return to menu
+If statement to determine if the user wants to Clear/GeoSer1/return to menu
+
+GCD1() Greatest common denominator function solved with GCD2 call
+Create double Choice, a, b, result and int variables for choice selection
+User input values first number(a) and second number(b)
+Call GCD2() formula to give result
+Display results in GCD and a menu if the user wants to Clear/GCD/return to menu
+If statement to determine if the user wants to Clear/GCD/return to menu
+
+PrimeN1() Function that calls prime number to determine if true or false
+Make a double Choice, n and int variables for choice selection
+User input number to test prime or not
+Call PrimeTF to test whether True or False
+Display results in PrimeTF and a menu if the user wants to Clear/PrimeN1/return to menu
+If statement to determine if the user wants to Clear/PrimeN1/return to menu
+
+PerfectN1() Perfect number function using while loop to determine if the number is a perfect number or not
+While loop for int Choice and int variables for choice selection
+Create inter number, i, and sum = 0
+User input for number
+For loop to test if number is a perfect number or not
+Display results and a menu if the user wants to Clear/PerfectN1/return to menu
+If statement to determine if the user wants to Clear/PerfectN1/return to menu
+
+double nCr(double n, double r) Combination formula definition to be called in Combination1
+If statements to determine whether r is > 0 return 0, r * 2 > 0 then r = n - r, r = 0 return 1
+Create int result = n
+For loop to increment result of i <=r
+Return result
+
+double nPr(double n, double r) Permutation formula to be called in Permutation1
+If statements to determine whether r is > 0 return 0, r * 2 > 0 then r = n - r, r = 0 return 1
+Create int result = n
+For loop to increment result of i <=r
+Return result
+
+int GCD2(double a, double b) Greatest common denominator to be called in GCD1
+If statements if a = 0 return b, if b = 0 return a, if a > b return GCD2(a-b, b)
+return GCD2 in GCD1 function to determine GCD
+
+bool PrimeTF(int n) Boolean prime true or false
+If n <= 1 return false
+For loop and if statement to determine if false by implementing the square and increments
+Return true
+
+double NthRoot(double num, doublen_) Nthroot to be called in the root function when looking cube root of a number
+Create double x, A(num), dx, eps(10e-6), n(n_)
+Formula to solve for the cube root of a number
+While loop for dx >= eps or dx <= -eps
+Return x
